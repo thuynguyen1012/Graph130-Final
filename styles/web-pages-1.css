@@ -1,0 +1,34 @@
+body, header, section {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* this make the content in the header spread evenly */
+    align-items: center; /* align everhting vertically center */
+}
+
+.container nav li {
+    display: inline;
+    list-style: none;
+}
+
+.container nav {
+    text-align: center;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline {
+    margin-top: 50px;
+}
