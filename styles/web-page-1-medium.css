@@ -1,0 +1,116 @@
+@media screen and (max-width: 1175px) {
+    body, header, section, main, footer {
+        display: block;
+        margin: auto;
+    }
+
+    body, section, main, footer {
+    width: min-content;
+    margin: auto;
+}
+
+header {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.container nav li {
+    margin: 40px;
+    font-weight: bold;
+    display: inline;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline img {
+    width: 950px;
+    height: auto;
+}
+
+.headline p {
+    box-sizing: border-box;
+    float: right;
+    width:  640px;
+}
+
+.sub-image {
+    width: 450px;
+    height: auto;
+}
+
+.ad {
+    width: 970px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 160px;
+    margin-bottom: 50px;
+    padding: none;
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+}
+
+footer {
+    width: 102%;
+}
+
+.sub-topic-1, .sub-topic-3, .sub-topic-5 {
+    display: block;
+    float: left;
+    margin-left: -50px;
+}
+
+.sub-topic-2, .sub-topic-4, .sub-topic- {
+    display: block;
+    float: right;
+}
+
+.sub-topic-2 hr {
+    margin-right: -20px;
+}
+
+.sub-topic-3 {
+    float: left;
+    margin-top: 490px;
+    margin-left: -500px;
+    width: 500px;
+}
+
+.sub-topic-5 {
+    float: left;
+    margin-top: 585px;
+    margin-left: -500px;
+    margin-bottom: 0px;
+    width: 500px;
+}
+
+.sub-topic-4 {
+    float: right;
+    margin-top: 0;
+    margin-right: -20px;
+    width: 500px;
+}
+
+.sub-topic-6 {
+    float: right;
+    margin-top: 107px;
+    margin-right: -520px;
+    margin-bottom: 0px;
+    width: 500px;
+}
+
+a:hover {
+    color: rgb(109, 85, 206);
+}  
+
+
+}

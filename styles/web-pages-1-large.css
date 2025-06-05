@@ -12,6 +12,36 @@ body {
     margin: auto;
 }
 
+.logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline img {
+    width: 500px;
+    height: auto;
+}
+
+.sub-image {
+    width: 270px;
+    height: auto;
+}
+
+.ad {
+    width: 1150px;
+    height: auto;
+    margin-top: 50px;
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+}
+
 .container {
     display: flex;
     justify-content: space-between; /* this make the content in the header spread evenly */
@@ -19,7 +49,8 @@ body {
 }
 
 .container nav li {
-    margin: 70px;
+    margin: 60px;
+    font-weight: bold;
     display: inline;
 }
 
@@ -27,9 +58,6 @@ body {
     text-align: center;
 }
 
-nav a:hover {
-    color: rgb(149, 108, 221);
-}   
 
 a {
     text-decoration: none; /*get rid of link underline*/
@@ -37,11 +65,15 @@ a {
     font-size: 20px;
 }
 
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.headline a {
+    color: black;
+    font-size: 16px;
 }
+
+a:hover {
+    color: rgb(109, 85, 206);
+}  
+
 
 .headline { 
     margin-top: 50px; 
@@ -162,5 +194,3 @@ hr {
     height: 0.5px;
     background-color: black;
 }
-
-
