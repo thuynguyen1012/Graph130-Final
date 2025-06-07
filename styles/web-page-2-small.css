@@ -1,0 +1,82 @@
+@media screen and (max-width: 850px) {
+     body, header, section, main, footer {
+        display: block;
+        margin: auto;
+        width: 600px;
+    }
+
+    body, section, main, footer {
+    width: min-content;
+    margin: auto;
+}
+
+.container nav li {
+    margin: 15px;
+    font-weight:bold;
+    display: inline;
+    font-size: 16px;
+}
+
+.home a {
+    margin-left: -37px;
+}
+
+.search input {
+    width: 70px ;
+}
+
+.logo {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: 600px;
+}
+
+.event-1, .event-2 {
+    grid-template-columns: none;
+}
+
+.event-1 img {
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.event-2 img {
+    margin-left: 100px;
+}
+
+.ad {
+    width: 600px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: none;
+
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+}
+
+footer {
+    width: 100%;
+}
+
+.between {
+    margin-bottom: -30px;
+    visibility: visible;
+}
+
+.title {
+    margin-top: 50px;
+}
+
+}

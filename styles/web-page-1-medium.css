@@ -9,15 +9,11 @@
     margin: auto;
 }
 
-header {
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
 .container nav li {
-    margin: 40px;
+    margin: 30px;
     font-weight: bold;
     display: inline;
+    font-size: 18px;
 }
 
 .logo {
@@ -29,26 +25,25 @@ header {
 }
 
 .headline img {
-    width: 950px;
+    width: 850px;
     height: auto;
 }
 
 .headline p {
     box-sizing: border-box;
     float: right;
-    width:  640px;
+    width:  540px;
 }
 
 .sub-image {
-    width: 450px;
+    width: 400px;
     height: auto;
 }
 
 .ad {
-    width: 970px;
+    width: 850px;
     height: auto;
-    margin-left: 20px;
-    margin-top: 160px;
+    margin-top: 50px;
     margin-bottom: 50px;
     padding: none;
 }
@@ -60,7 +55,7 @@ footer img {
 }
 
 footer {
-    width: 102%;
+    width: 100%;
 }
 
 .sub-topic-1, .sub-topic-3, .sub-topic-5 {
@@ -74,38 +69,39 @@ footer {
     float: right;
 }
 
-.sub-topic-2 hr {
-    margin-right: -20px;
-}
 
 .sub-topic-3 {
     float: left;
-    margin-top: 490px;
-    margin-left: -500px;
-    width: 500px;
+    margin-top: 10px;
+    margin-left: -449px;
+    width: 450px;
 }
 
 .sub-topic-5 {
     float: left;
-    margin-top: 585px;
-    margin-left: -500px;
+    margin-top: 100px;
+    margin-left: -450px;
     margin-bottom: 0px;
-    width: 500px;
+    width: 450px;
 }
 
 .sub-topic-4 {
     float: right;
-    margin-top: 0;
+    margin-top: -104px;
     margin-right: -20px;
-    width: 500px;
+    width: 450px;
+}
+
+.sub-topic-4 hr, .sub-topic-6 hr {
+    margin-right: 20px;
 }
 
 .sub-topic-6 {
     float: right;
-    margin-top: 107px;
-    margin-right: -520px;
+    margin-top: -1px;
+    margin-right: -20px;
     margin-bottom: 0px;
-    width: 500px;
+    width: 450px;
 }
 
 a:hover {

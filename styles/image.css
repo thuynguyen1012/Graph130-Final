@@ -1,0 +1,96 @@
+body, header, section, main, footer {
+    box-sizing: border-box;
+}
+
+body {
+    width: fit-content;
+    margin: auto;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* this make the content in the header spread evenly */
+    align-items: center; /* align everhting vertically center */
+}
+
+.container nav li {
+    margin: 60px;
+    font-weight: bold;
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    display: inline;
+    font-size: 20px;
+}
+
+.container nav {
+    text-align: center;
+}
+
+header {
+    width: 1150px;
+}
+
+a {
+    text-decoration: none; /*get rid of link underline*/
+    color: black;
+}
+
+hr {
+    height: 0.5px;
+    background-color: black;
+}
+
+.title {
+    margin-top: 70  px;
+    margin-bottom: 5px;
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.content p {
+    color: grey;
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    font-weight: 700;
+}
+
+.content h2 {
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    font-weight: 700;
+}
+
+section img {
+    width: 450px;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 5px #ccc;
+    margin-top: 50px;
+}
+
+section img, section p, h2  {
+    margin-left: 350px;
+}
+
+section p {
+    margin-bottom: 50px;
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+}
+
+footer {
+    height: 200px;
+    /* background-color: rgb(149, 108, 221); */
+    margin-top: 20px;
+    text-align: center;
+}

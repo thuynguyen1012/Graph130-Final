@@ -1,0 +1,132 @@
+body, header, section, main, footer {
+    box-sizing: border-box;
+}
+
+body {
+    width: fit-content;
+    margin: auto;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* this make the content in the header spread evenly */
+    align-items: center; /* align everhting vertically center */
+}
+
+.container nav li {
+    margin: 60px;
+    font-weight: bold;
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    display: inline;
+    font-size: 20px;
+}
+
+.container nav {
+    text-align: center;
+}
+
+header {
+    width: 1150px;
+}
+
+a {
+    text-decoration: none; /*get rid of link underline*/
+    color: black;
+}
+
+hr {
+    height: 0.5px;
+    background-color: black;
+}
+
+.title {
+    margin-top: 70  px;
+    margin-bottom: 5px;
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.click, .title {
+    display: inline;
+}
+
+.click {
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    margin-left:10px;
+}
+
+section img {
+    width: 250px;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 5px #ccc;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); /* Two columns, each 50% */
+    gap: 50px; /* Adjust the gap between grid items if needed*/
+    width: 1150px;
+}
+
+.content p {
+    color: grey;
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    font-weight: 700;
+}
+
+.content h2 {
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    font-weight: 700;
+}
+
+.content h3 {
+    font-family: "Sixta W01 Bold","Helvetica Neue",Arial,Sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.img2 h3, .img3 h3, .img4 h3 {
+    margin-top: 50px;
+}
+
+.img2 p, .img3 p, .img4 p  {
+    margin-top: -1px;
+}
+
+
+.ad {
+    width: 1150px;
+    height: auto;
+    margin-top: 50px;
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+}
+
+footer {
+    height: 200px;
+    /* background-color: rgb(149, 108, 221); */
+    margin-top: 20px;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(109, 85, 206);
+} 

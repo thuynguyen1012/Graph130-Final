@@ -1,0 +1,98 @@
+@media screen and (max-width: 850px) {
+    body, header, section, main, footer {
+        display: block;
+        margin: auto;
+        width: 600px;
+    }
+
+    body, section, main, footer {
+    width: min-content;
+    margin: auto;
+}
+
+.container nav li {
+    margin: 15px;
+    font-weight:bold;
+    display: inline;
+    font-size: 16px;
+}
+
+.home a {
+    margin-left: -37px;
+}
+
+.search input {
+    width: 70px ;
+}
+
+.logo {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: 600px;
+}
+
+.headline img {
+    width: 600px;
+    height: auto;
+}
+
+.headline p {
+    box-sizing: border-box;
+    float: right;
+    width:  300px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sub-image {
+    width: 600px;
+    height: auto;
+}
+
+.ad {
+    width: 600px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: none;
+
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+}
+
+footer {
+    width: 100%;
+}
+
+.sub-topic-1, .sub-topic-2, .sub-topic-3, .sub-topic-4, .sub-topic-5, .sub-topic-6 {
+    margin: none;
+    margin-left: -50px;
+    margin-right: auto;
+    padding: none;
+    clear: both;
+}
+
+.sub-topic-5 {
+    margin-top: -0px;
+}
+
+.sub-topic-4 {
+    margin-top: -10px;
+    margin-right: 180px;
+}
+
+.sub-topic-6 {
+    margin-right: 180px;
+}
+}
