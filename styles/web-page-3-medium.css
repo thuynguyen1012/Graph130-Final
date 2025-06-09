@@ -1,0 +1,68 @@
+@media screen and (max-width: 1175px) {
+    body, header, section, main, footer {
+    box-sizing: border-box;
+}
+
+body {
+    width: fit-content;
+    margin: auto;
+}
+
+body, section, main, footer {
+    width: min-content;
+    margin: auto;
+    width: 850px;
+    }
+
+header {
+    width: 850px;}
+
+.container nav li {
+    margin: 30px;
+    font-weight: bold;
+    display: inline;
+    font-size: 18px;
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+}
+
+section img {
+    width: 400px;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 5px #ccc;
+}
+
+.content p, .content h2, .content h3, .content hr{
+    width: 400px;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); /* four columns */
+    gap: 5px; /* Adjust the gap between grid items if needed*/
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
+    width: 50px;
+}
+
+.img1, .img3, .img5, .img7, .img9, .img11 {
+    margin-left: 0px;
+}
+
+.img2, .img4, .img6, .img8, .img10, .img12 {
+    margin-left: -129px;
+}
+
+.img2 h3, .img3 h3, .img4 h3, .img2 p, .img3 p, .img4 p  {
+    margin-top: 0px;
+    margin-top: 0px;
+}
+}

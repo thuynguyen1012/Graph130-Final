@@ -1,5 +1,5 @@
 @media screen and (max-width: 850px) {
-     body, header, section, main, footer {
+    body, header, section, main, footer {
         display: block;
         margin: auto;
         width: 600px;
@@ -37,27 +37,27 @@ hr {
     width: 600px;
 }
 
-.event-1, .event-2 {
-    grid-template-columns: none;
-}
-
-.event-1 img {
-    margin-left: 150px;
-    margin-right: auto;
-    margin-top: 50px;
-}
-
-.event-2 img {
-    margin-left: 100px;
-}
-
-.ad {
-    width: 600px;
+section img {
+    width: 500px;
     height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: none;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 5px #ccc;
+}
 
+.content {
+    display:block;
+    width: 500px;
+    margin-left: auto;
+    margin: auto;
+}
+
+.content p, .content h2, .content h3, .content hr{
+    width: 500px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
+    margin-left: 0px;
+    margin-top: 60px;
 }
 
 footer img {
@@ -70,10 +70,8 @@ footer {
     width: 100%;
 }
 
-.between {
-    margin-bottom: -30px;
-    visibility: visible;
+.title {
+    margin-top: 100px;
 }
-
 
 }
